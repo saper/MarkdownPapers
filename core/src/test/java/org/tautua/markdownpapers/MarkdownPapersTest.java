@@ -33,6 +33,7 @@ public class MarkdownPapersTest extends BaseTest {
     @Parameters
     public static List<Object[]> data() throws FileNotFoundException {
         return Arrays.asList(new Object[][]{
+                {"backquoteAlone"},
                 {"code"},
                 {"comments"},
                 {"emphasis"},
